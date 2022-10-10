@@ -7,12 +7,12 @@ async function main() {
 
   console.log(" ")
 
-  const MST = await ethers.getContractFactory("MyStupidToken")
-  const mst = await MST.deploy(parseEther('10000'))
+  const EUR = await ethers.getContractFactory("Euro")
+  const eur = await EUR.deploy()
 
-  await mst.deployed()
+  await eur.deployed()
 
-  console.log(`ERC-20 deployed at ${msg(mst.address)} (Aurora Testnet) ✅`)
+  console.log(`ERC-20 deployed at ${msg(eur.address)} ✅`)
 }
 
 main().catch((error) => {
