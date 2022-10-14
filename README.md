@@ -36,9 +36,21 @@ npx hardhat run scripts/beat.ts --network goerli
 
 ## Deploy an ERC-20
 
+On Aurora testnet:
+
 ```shell
 npx hardhat run scripts/deploy.ts --network aurora_testnet
 ```
+
+On Aurora testnet:
+
+```shell
+npx hardhat run scripts/deploy.ts --network aurora_mainnet
+```
+
+## Notes
+
+- An 'open bar' EUR was deployed on Aurora Mainnet: [https://aurorascan.dev/address/0xA77c0153Ac5B609028109C708c5A3AcfF1A6159c#code](https://aurorascan.dev/address/0xA77c0153Ac5B609028109C708c5A3AcfF1A6159c#code). It was also verified using [Hardhat Etherscan plugin](https://hardhat.org/hardhat-runner/plugins/nomiclabs-hardhat-etherscan#hardhat-etherscan).
 
 ## Support
 
