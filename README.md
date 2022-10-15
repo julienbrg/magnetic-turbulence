@@ -42,10 +42,16 @@ On Aurora testnet:
 npx hardhat run scripts/deploy.ts --network aurora_testnet
 ```
 
-On Aurora testnet:
+On Aurora Mainnet:
 
 ```shell
 npx hardhat run scripts/deploy.ts --network aurora_mainnet
+```
+
+## Deploy EUR
+
+```shell
+npx hardhat run scripts/deployEUR.ts --network aurora_testnet
 ```
 
 ## Notes
