@@ -39,7 +39,7 @@ const config: HardhatUserConfig = {
     },
   },
   etherscan: {
-    apiKey: process.env.AURORASCAN_API_KEY,
+    apiKey: AURORASCAN_API_KEY,
   },
 };
 
