@@ -48,6 +48,12 @@ On Aurora Mainnet:
 npx hardhat run scripts/deploy.ts --network aurora_mainnet
 ```
 
+## Deploy EUR
+
+```shell
+npx hardhat run scripts/deployEUR.ts --network aurora_testnet
+```
+
 ## Notes
 
 - An 'open bar' EUR was deployed on Aurora Mainnet: [https://aurorascan.dev/address/0xA77c0153Ac5B609028109C708c5A3AcfF1A6159c#code](https://aurorascan.dev/address/0xA77c0153Ac5B609028109C708c5A3AcfF1A6159c#code). It was also verified using [Hardhat Etherscan plugin](https://hardhat.org/hardhat-runner/plugins/nomiclabs-hardhat-etherscan#hardhat-etherscan).
