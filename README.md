@@ -30,6 +30,7 @@ Aurora Testnet:
 
 ```shell
 npx hardhat run scripts/beat.ts --network aurora_testnet
+
 ```
 
 Goerli Testnet:

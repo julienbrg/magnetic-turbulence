@@ -16,7 +16,7 @@ const AURORA_RPC_URL = process.env.AURORA_RPC_URL;
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL;
 
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
-const AURORASCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
+const AURORASCAN_API_KEY = process.env.AURORASCAN_API_KEY;
 
 const config: HardhatUserConfig = {
   solidity: "0.8.17",
