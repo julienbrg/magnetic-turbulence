@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.3",
+    "bs58": "^5.0.0",
     "cli-color": "^2.0.3",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "web3-utils": "^1.8.0"
   }
 }
